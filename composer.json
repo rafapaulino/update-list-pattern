@@ -1,0 +1,28 @@
+{
+    "name": "rafael.paulino/update-list-pattern",
+    "description": "Class to return differences between arrays",
+    "keywords": ["array_diff", "manipulation of arrays"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Paulino",
+            "email": "rafaclasses@gmail.com",
+            "homepage": "http://rafapaulino.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": { "UpdateListPattern\\": "src/" },
+        "classmap": [
+            "src"
+        ]
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
